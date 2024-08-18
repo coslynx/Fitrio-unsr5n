@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 font-sans;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-4;
+}
+
+.card-title {
+  @apply text-xl font-bold mb-2;
+}
+
+.card-content {
+  @apply text-gray-600 mb-4;
+}
+
+.button {
+  @apply inline-flex items-center px-4 py-2 rounded-md font-medium text-white bg-blue-600 hover:bg-blue-700 focus:ring-blue-200 focus:ring-opacity-50 disabled:bg-gray-400 disabled:cursor-not-allowed;
+}
+
+.form-label {
+  @apply block text-sm font-medium text-gray-700;
+}
+
+.form-input {
+  @apply mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm;
+}
+
+.form-textarea {
+  @apply mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm;
+}
+
+.form-select {
+  @apply mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm;
+}
+
+.form-error {
+  @apply text-red-500 text-xs mt-1;
+}
+
+.dropdown-button {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.dropdown-menu {
+  @apply absolute z-10 w-full mt-2 bg-white border border-gray-300 rounded-md shadow-lg;
+}
+
+.dropdown-item {
+  @apply px-4 py-2 hover:bg-gray-100 cursor-pointer;
+}
+
+.progress-bar {
+  @apply bg-blue-500 rounded-full h-2;
+}
+
+.progress-bar-fill {
+  @apply bg-blue-500 rounded-full h-2;
+}
+
+.social-feed-post {
+  @apply bg-white rounded-lg shadow-md p-4 mb-4;
+}
+
+.social-feed-post-header {
+  @apply flex items-center mb-2;
+}
+
+.social-feed-post-content {
+  @apply text-gray-600 mb-2;
+}
+
+.social-feed-post-actions {
+  @apply flex items-center mt-2;
+}
+
+.social-feed-post-action {
+  @apply px-2 py-1 mr-2 rounded-md bg-gray-100 hover:bg-gray-200;
+}
+
+.social-feed-post-action-icon {
+  @apply w-4 h-4;
+}
+
+.social-feed-post-comment {
+  @apply mt-2 text-gray-500;
+}
+
+.social-feed-post-comment-input {
+  @apply mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm;
+}
